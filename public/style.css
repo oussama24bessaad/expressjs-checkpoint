@@ -1,0 +1,45 @@
+a {
+    font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800
+    ;
+    color: rgb(243, 53, 6);  
+}
+
+.title {
+    font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color: rgb(14, 13, 13);
+}
+
+li {
+    display: inline-block;
+    float: left;
+
+  }
+
+  a {
+    display: inline-block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+    
